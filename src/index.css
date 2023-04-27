@@ -1,0 +1,66 @@
+@font-face {
+    font-family: GT-Planar;
+    src: url("./fonts/GT-Planar/GT-Planar-Bold.woff2") format("woff2"),
+        url("./fonts/GT-Planar/GT-Planar-Bold.woff") format("woff"),
+        url("./fonts/GT-Planar/GT-Planar-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GT-Planar-Regular;
+    src: url("./fonts/GT-Planar/GT-Planar-Regular.woff2") format("woff2"),
+        url("./fonts/GT-Planar/GT-Planar-Regular.woff") format("woff"),
+        url("./fonts/GT-Planar/GT-Planar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("./fonts/Poppins-Medium/Poppins-Medium.woff2") format("woff2"),
+        url("./fonts/Poppins-Medium/Poppins-Medium.woff") format("woff"),
+        url("./fonts/Poppins-Medium/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: AvenirNextBold;
+    src: url("./fonts/Avenir-Next/AvenirNextBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AvenirNextRegular;
+    src: url("./fonts/Avenir-Next/AvenirNextRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("./fonts/Lato/Lato.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url("./fonts/Lato/LatoBold.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: GT-Planar;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f3ef !important;
+    opacity: 0.99;
+    background-attachment: fixed;    
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+a {
+    color: #db6937 !important;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+a:hover {
+    color: white !important;
+}
